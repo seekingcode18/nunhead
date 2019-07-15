@@ -1,0 +1,251 @@
+.hero-container {
+	background: url('https://nunheadroofing.co.uk/wp-content/uploads/2019/03/nunhead-roofing-london.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fefefe;
+	padding: 2rem;
+	height: 40vh;
+}
+.hero-container__p {
+
+}
+.hero-container__button {
+
+}
+.hero-container__heading {
+
+}
+.hero-container__name {
+
+}
+.hero-container__sub-heading {
+
+}
+
+
+
+.info-box {
+	margin-top: -6rem;
+	background: cyan;
+	width: 80vw;
+	/* ^-> add breakpoints */
+	display: flex;
+	justify-content: space-around
+}
+.info-box__container {
+	background: white;
+}
+.info-box__container--special {
+
+}
+.info-box__heading {
+
+}
+.info-box__img {
+
+}
+.info-box__text {
+
+}
+
+
+
+
+
+.bottom-cta {
+
+}
+.bottom-cta__button {
+
+}
+.bottom-cta__heading {
+	
+}
+.bottom-cta__left-col {
+
+}
+.bottom-cta__text {
+
+}
+.contact-bar {
+
+}
+.contact-bar__contact-item {
+
+}
+.contact-bar__contact-list {
+
+}
+.contact-bar__left-col {
+
+}
+.contact-bar__link {
+
+}
+.contact-bar__right-col {
+
+}
+.contact-bar__social-item {
+
+}
+.contact-bar__social-list {
+
+}
+.container {
+
+}
+.footer {
+
+}
+.footer__contact-item {
+
+}
+.footer__contact-list {
+
+}
+.footer__heading {
+
+}
+.footer__left-col {
+
+}
+.footer__mid-col {
+
+}
+.footer__right-col {
+
+}
+.footer__text {
+
+}
+.header {
+
+}
+
+.home-competent {
+
+}
+.home-competent__icons-containers {
+
+}
+.home-competent__video-container {
+
+}
+.home-flat-roof-repairs {
+
+}
+.home-flat-roof-repairs__button {
+
+}
+.home-flat-roof-repairs__heading {
+
+}
+.home-flat-roof-repairs__img {
+
+}
+.home-flat-roof-repairs__img-container {
+
+}
+.home-flat-roof-repairs__item {
+
+}
+.home-flat-roof-repairs__list {
+
+}
+.home-flat-roof-repairs__text-container {
+
+}
+.home-replacement {
+
+}
+.home-replacement__button {
+
+}
+.home-replacement__heading {
+
+}
+.home-replacement__img {
+
+}
+.home-replacement__img-container {
+
+}
+.home-replacement__item {
+
+}
+.home-replacement__list {
+
+}
+.home-replacement__text-container {
+
+}
+.home-services {
+
+}
+.home-services__text {
+
+}
+.home-trust {
+
+}
+.home-trust__img {
+
+}
+.home-trust__item {
+
+}
+.home-trust__list {
+
+}
+
+.list-inline {
+
+}
+.list-inline-item {
+
+}
+.list-unstyled {
+
+}
+.nav-main {
+
+}
+.nav-main__item {
+
+}
+.nav-main__link {
+
+}
+.nav-main__list {
+
+}
+.nav-main__logo-img {
+
+}
+.stats-box {
+
+}
+.stats-box__div {
+
+}
+.stats-box__div--1 {
+
+}
+.stats-box__div--2 {
+
+}
+.stats-box__div--3 {
+
+}
+.stats-box__div--4 {
+
+}
+.stats-box__number {
+
+}
+.stats-box__text {
+
+}
+.text-center {
+
+}
