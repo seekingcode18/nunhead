@@ -37,34 +37,43 @@
     <button class="hero-container__button">Read more</button>
   </section>
 
+  <!-- top half container -->
   <div class="container">
 
     <!-- info box cards -->
     <section class="info-box container text-center">
       <div class="row">
-        <div class="info-box__container col-md-4">
-          <img src="images/icon-roof-replacement.jpg" alt="Roof replacement icon" class="info-box__img">
-          <h2 class="info-box__heading"><a href="roof-replacement">Roof Replacement & Installation</a></h2>
-          <p class="info-box__text">Your first choice for slating, tiling, chimneys and <a href="#">roof
-              replacements</a>.
-          </p>
+        <div class="info-box__container col-lg-4 col-md-6">
+          <div class="info-box__content">
+            <img src="images/icon-roof-replacement.jpg" alt="Roof replacement icon" class="info-box__img">
+            <h2 class="info-box__heading"><a href="roof-replacement">Roof Replacement & Installation</a></h2>
+            <p class="info-box__text">Your first choice for slating, tiling, chimneys and <a href="#">roof
+                replacements</a>.
+            </p>
+          </div>
         </div>
-        <div class="info-box__container col-md-4">
-          <img src="images/icon-flat-roof-repair.jpg" alt="Flat roof repair icon" class="info-box__img">
-          <h2 class="info-box__heading"><a href="roof-replacement">Flat Roof Repairs & Replacement</a></h2>
-          <p class="info-box__text">We specialise in <a href="#">flat roof repairs</a> and replacements.
-          </p>
+        <div class="info-box__container col-lg-4 col-md-6">
+          <div class="info-box__content">
+            <img src="images/icon-flat-roof-repair.jpg" alt="Flat roof repair icon" class="info-box__img">
+            <h2 class="info-box__heading"><a href="roof-replacement">Flat Roof Repairs & Replacement</a></h2>
+            <p class="info-box__text">We specialise in <a href="#">flat roof repairs</a> and replacements.
+            </p>
+          </div>
         </div>
-        <div class="info-box__container info-box__container--special col-md-4">
-          <h2 class="info-box__heading col"><a href="roof-replacement">Get a roofing replacement quote</a></h2>
-          <p class="info-box__text">For helpful advice and a full quotation, <a href="#">get your quote today</a>.</p>
+        <div class="info-box__container col-lg-4 col-md-12">
+          <div class="info-box__content info-box__content--special">
+            <h2 class="info-box__heading col"><a href="roof-replacement">Get a roofing replacement quote</a></h2>
+            <p class="info-box__text">Contact us for a <a href="#">full quotation and helpful advice</a>.</p>
+            <button>Get your quote</button>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- services info on home page -->
     <section class="home-services">
-      <p class="home-services__text text-center">We have been providing roofing replacement and installation services
+      <h2 class="home-services__heading">Our roofing services</h2>
+      <p class="home-services__text">We have been providing roofing replacement and installation services
         across London
         for over 25 years. As a family run business we offer a trusted and professional service to both domestic and
         commercial customers. As members of <a href="https://youtu.be/3kd-Tm5Gsg8">Competent Roofer</a>, the only
@@ -75,7 +84,7 @@
 
     <!-- possible slider -->
     <!-- slide 1 -->
-    <section class="home-replacement">
+    <section class="home-replacement display">
       <div class="home-replacement__img-container">
         <img src="images/roofing-1.jpg" alt="Street of houses with rooves" class="home-replacement__img">
       </div>
@@ -104,11 +113,14 @@
         <button class="home-flat-roof-repairs__button">Flat roof repair options</button>
       </div>
     </section>
-    <!-- end possible slider -->
+  </div>
+  <!-- end possible slider -->
 
-    <!-- stats on home page: jobs completed etc -->
-    <!-- remember to add custom Umbraco inputs for these for client to update -->
-    <section class="stats-box">
+  <!-- stats on home page: jobs completed etc -->
+  <!-- remember to add custom Umbraco inputs for these for client to update -->
+
+  <section class="stats-box">
+    <div class="stats-box__container">
       <div class="stats-box__div stats-box__div--1">
         <div class="stats-box__number">3</div>
         <div class="stats-box__text">In the Last Years</div>
@@ -125,8 +137,11 @@
         <div class="stats-box__number">118</div>
         <div class="stats-box__text">Flat Roof Replacements</div>
       </div>
-    </section>
+    </div>
+  </section>
 
+  <!-- bottom half container -->
+  <div class="container">
     <section class="home-competent">
       <div class="home-competent__video-container">
         <div
@@ -154,43 +169,52 @@
         </li>
       </ul>
     </section>
-
-    <section class="bottom-cta">
-      <div class="bottom-cta__left-col">
-        <h2 class="bottom-cta__heading">Book your roof repair or replacement now. Call Mark on <a
-            href="tel:&#48;&#50;&#48;&#32;&#51;&#55;&#52;&#50;&#32;&#49;&#49;&#50;&#56;">&#48;&#50;&#48;&#32;&#51;&#55;&#52;&#50;&#32;&#49;&#49;&#50;&#56;</a>
-        </h2>
-        <p class="bottom-cta__text">Over 20 years of knowledge and experience in the roofing profession.</p>
-      </div>
+  </div>
+  <section class="bottom-cta row">
+    <div class="bottom-cta__left-col col-md-8">
+      <h2 class="bottom-cta__heading">Book your roof repair or replacement now.<br> Call Mark on <a
+          href="tel:&#48;&#50;&#48;&#32;&#51;&#55;&#52;&#50;&#32;&#49;&#49;&#50;&#56;"
+          class="bottom-cta__heading--phone">&#48;&#50;&#48;&#32;&#51;&#55;&#52;&#50;&#32;&#49;&#49;&#50;&#56;</a>
+      </h2>
+      <p class="bottom-cta__text">Over 20 years of knowledge and experience in the roofing profession.</p>
+    </div>
+    <div class="bottom-cta__right-col col-md-4">
       <button class="bottom-cta__button">Get Your Quote</button>
-    </section>
+    </div>
+  </section>
 
 
 
 
-    <!-- top sticky contact bar -->
+  <!-- top sticky contact bar -->
+  <div class="container">
     <aside class="contact-bar">
-      <div class="contact-bar__left-col">
-        <ul class="contact-bar__contact-list list-unstyled">
-          <li class="contact-bar__contact-item list-inline-item">
-            &#48;&#50;&#48;&#32;&#51;&#55;&#52;&#50;&#32;&#49;&#49;&#50;&#56;</li>
-          <li class="contact-bar__contact-item list-inline-item">
-            <a
-              href="mailto:&#105;&#110;&#102;&#111;&#064;&#110;&#117;&#110;&#104;&#101;&#097;&#100;&#114;&#111;&#111;&#102;&#105;&#110;&#103;&#046;&#099;&#111;&#046;&#117;&#107;">&#105;&#110;&#102;&#111;&#064;&#110;&#117;&#110;&#104;&#101;&#097;&#100;&#114;&#111;&#111;&#102;&#105;&#110;&#103;&#046;&#099;&#111;&#046;&#117;&#107;</a>
-          </li>
-          <li class="contact-bar__contact-item"><a href="#" class="contact-bar__link">Get a quote</a></li>
-        </ul>
-      </div>
-      <div class="contact-bar__right-col">
-        <ul class="contact-bar__social-list list-inline list-unstyled">
-          <li class="contact-bar__social-item list-inline-item"><a href="https://twitter.com/nunheadroofing">Twitter</a>
-          </li>
-        </ul>
+      <div class="row">
+        <div class="contact-bar__left-col col-md-8">
+          <ul class="contact-bar__contact-list list-unstyled">
+            <li class="contact-bar__contact-item list-inline-item">
+              &#48;&#50;&#48;&#32;&#51;&#55;&#52;&#50;&#32;&#49;&#49;&#50;&#56;</li>
+            <li class="contact-bar__contact-item list-inline-item">
+              <a
+                href="mailto:&#105;&#110;&#102;&#111;&#064;&#110;&#117;&#110;&#104;&#101;&#097;&#100;&#114;&#111;&#111;&#102;&#105;&#110;&#103;&#046;&#099;&#111;&#046;&#117;&#107;">&#105;&#110;&#102;&#111;&#064;&#110;&#117;&#110;&#104;&#101;&#097;&#100;&#114;&#111;&#111;&#102;&#105;&#110;&#103;&#046;&#099;&#111;&#046;&#117;&#107;</a>
+            </li>
+            <li class="contact-bar__contact-item"><a href="#" class="contact-bar__link">Get a quote</a></li>
+          </ul>
+        </div>
+        <div class="contact-bar__right-col col-md-4">
+          <ul class="contact-bar__social-list list-inline list-unstyled">
+            <li class="contact-bar__social-item list-inline-item"><a
+                href="https://twitter.com/nunheadroofing">Twitter</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </aside>
+  </div>
 
-    <footer class="footer">
-      <div class="footer__left-col">
+  <footer class="footer">
+    <div class="row">
+      <div class="footer__left-col col-md-4">
         <h3 class="footer__heading">Nunhead Roofing</h3>
         <p class="footer__text">We are a family run business with over 20 years of knowledge and experience in the
           roofing
@@ -198,7 +222,7 @@
           or
           listed, we offer a high quality service. All work is guaranteed.</p>
       </div>
-      <div class="footer__mid-col">
+      <div class="footer__mid-col col-md-4">
         <h3 class="footer__heading">All Work Is Guaranteed</h3>
         <ul class="footer__contact-list list-unstyled">
           <li class="footer__contact-item">Mark on <a
@@ -211,12 +235,22 @@
           <li class="footer__contact-item">[Insert Correct Address, London SE* ***]</li>
         </ul>
       </div>
-      <div class="footer__right-col">
+      <div class="footer__right-col col-md-4">
         <h4 class="footer__heading">Get In Touch</h4>
-
+        <form action="">
+          <input type="text">
+          <input type="email">
+          <input type="submit" value="Send">
+        </form>
       </div>
-    </footer>
+    </div>
+  </footer>
+  <div class="footer__copyright row">
+    <div class="col-md-6">&copy; 2019. Nunhead Roofing & Building Services Ltd.</div>
+    <div class="col-md-6">Registered England and Wales (Company No. 11148258) | <a href="privacy.html">Privacy
+        Policy</a></div>
   </div>
+
   <!-- JS required for Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
