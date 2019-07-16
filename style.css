@@ -45,6 +45,41 @@ button:hover, input[type="button"]:hover {
 
 
 
+.nav-main {
+	background: #fff;
+	padding: 1rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+.nav-main__img-container {
+	width: 30%;
+}
+.nav-main__img-logo {
+
+}
+.nav-main__list {
+	display: flex;
+	width: 70%;
+	justify-content: space-around;
+}
+.nav-main__item {
+	/* border-right: solid #999 1px; */
+}
+.nav-main__link {
+	color: #111;
+	transition: 0.3s ease;
+}
+.nav-main__link:hover {
+	color: #7b9c73;
+	text-decoration: none;
+}
+
+
+
+
+
 .hero-container {
 	background: url('https://nunheadroofing.co.uk/wp-content/uploads/2019/03/nunhead-roofing-london.jpg');
 	background-size: cover;
@@ -392,21 +427,7 @@ font-weight: 600;
 .list-unstyled {
 
 }
-.nav-main {
 
-}
-.nav-main__item {
-
-}
-.nav-main__link {
-
-}
-.nav-main__list {
-
-}
-.nav-main__logo-img {
-
-}
 
 .text-center {
 
