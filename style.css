@@ -325,7 +325,13 @@ font-weight: 600;
 
 
 .contact-bar {
-
+	background: #7b9c73;
+	width: 100%;
+	display: fixed;
+	top: 0;
+	position: sticky;
+	z-index: 999;
+	border-bottom: 1px solid #ededed;
 }
 .contact-bar__contact-item {
 
@@ -348,6 +354,18 @@ font-weight: 600;
 .contact-bar__social-list {
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 .container {
 
 }
