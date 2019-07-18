@@ -1,3 +1,9 @@
+:root {
+	--primary: #379932;
+	/* 7b9c73 */
+}
+
+
 body {
 	background: #ecebeb;
 	font-family: 'Roboto', sans-serif;
@@ -19,11 +25,13 @@ button, input[type="button"] {
 	color: #000;
 	background: #fff;
 	transition: 0.3s ease;
+	border: rgba(0,0,0,0) solid 1px;
 }
 
 button:hover, input[type="button"]:hover {
 	color: #fff;
 	background: #000;
+	border: rgba(255,255,255,0.8) solid 1px;
 	box-shadow: rgba(0,0,0,0.5) 0 0 3px 3px;
 }
 
@@ -45,8 +53,60 @@ button:hover, input[type="button"]:hover {
 }
 
 
+/* contact bar */
+
+.contact-bar {
+	background: var(--primary);
+	width: 100%;
+	display: fixed;
+	top: 0;
+	position: sticky;
+	z-index: 999;
+	border-bottom: 1px solid #ededed;
+	color: #fefefe;
+}
+.contact-bar__container {
+	padding: 0.5rem 2rem;
+	height: 100%;
+}
+.contact-bar a {
+	color:#fefefe;
+}
+.contact-bar__contact-list {
+	margin: 0;
+	padding: 0;
+}
+.contact-bar__contact-item {
+	padding-right: 1.2rem;
+}
+.contact-bar__left-col {
+	
+}
+.contact-bar__link {
+	
+}
+.contact-bar__mid-col {
+	text-align: center;
+}
+.contact-bar__quote-button {
+	background: #ffbc21;
+}
+.contact-bar__right-col {
+	text-align: right;
+}
+.contact-bar__social-list {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
 
 
+
+
+
+
+/* navigation */
 
 .nav-main {
 	background: #fff;
@@ -75,7 +135,7 @@ button:hover, input[type="button"]:hover {
 	transition: 0.3s ease;
 }
 .nav-main__link:hover {
-	color: #7b9c73;
+	color: var(--primary);
 	text-decoration: none;
 }
 
@@ -96,7 +156,7 @@ button:hover, input[type="button"]:hover {
 }
 .hero-container__name::before {
 	content: '|';
-	color: #7b9c73;
+	color: var(--primary);
 	font-weight: bold;
 	font-size: 1.35rem;
 	padding-right: 0.3rem;
@@ -111,7 +171,7 @@ button:hover, input[type="button"]:hover {
 	padding: 1rem 0;
 	font-weight: 600;
 	font-size: 1.6rem;
-	color: #7b9c73;
+	color: var(--primary);
 }
 .hero-container__p {
 	color: #fefefe;
@@ -119,7 +179,7 @@ button:hover, input[type="button"]:hover {
 
 .hero-container__button {
 	margin: 1rem 0;
-	background: #7b9c73;
+	background: var(--primary);
 }
 
 
@@ -143,7 +203,7 @@ button:hover, input[type="button"]:hover {
 	padding: 1rem;
 }
 .info-box__content--special {
-	background: #7b9c73;
+	background: var(--primary);
 	padding-top: 2.3rem;
 }
 
@@ -173,7 +233,7 @@ font-weight: 600;
 .home-services__heading::after {
 	content: '—';
 	display: block;
-	color: #7b9c73;
+	color: var(--primary);
 	font-size: 2.6rem;
 }
 .home-services__text {
@@ -241,7 +301,7 @@ font-weight: 600;
 
 
 .bottom-cta {
-	background: #7b9c73;
+	background: var(--primary);
 	padding: 3rem 10vw;
 }
 .bottom-cta__button {
@@ -322,38 +382,6 @@ font-weight: 600;
 
 
 
-
-
-.contact-bar {
-	background: #7b9c73;
-	width: 100%;
-	display: fixed;
-	top: 0;
-	position: sticky;
-	z-index: 999;
-	border-bottom: 1px solid #ededed;
-}
-.contact-bar__contact-item {
-
-}
-.contact-bar__contact-list {
-
-}
-.contact-bar__left-col {
-
-}
-.contact-bar__link {
-
-}
-.contact-bar__right-col {
-
-}
-.contact-bar__social-item {
-
-}
-.contact-bar__social-list {
-
-}
 
 
 
