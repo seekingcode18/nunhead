@@ -1,10 +1,148 @@
+:root {
+	--primary: #7b9c73;
+	--darker: #597152;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
+	background: #efefef;
 }
 button, .btn, .btn-lg, a.btn-primary {
 	display: block;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 0.9rem; 
+	font-size: 0.9rem;
+	padding: 0.9rem 2.2rem;
 }
+button:hover, .btn:hover, .btn-lg:hover, a.btn-primary:hover {
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+}
+p {
+	font-weight: 300;
+}
+.icon-shaded {
+	background: var(--darker);
+	padding: 0.5rem;
+	width: 33px;
+	height: 33px;
+	text-align: center;
+	border-radius: 3px;
+}
+.contact-bar {
+	background: var(--primary);
+}
+.contact-bar a {
+	color: black;
+	transition: 0.2s;
+}
+.contact-bar a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.hero {
+	background: url('https://nunheadroofing.co.uk/wp-content/uploads/2019/03/nunhead-roofing-london.jpg');
+	background-size: cover;
+	min-height: 40vh;
+	color: white;
+	padding-top: 3rem;
+}
+.hero-name {
+	font-size: 0.9rem;
+	font-weight: bold;
+	padding-bottom: 1rem;
+}
+.hero-name::before {
+	content: '|';
+	color: var(--primary);
+	font-weight: bold;
+	font-size: 1.5rem;
+	vertical-align: middle;
+}
+.hero-subheading {
+	color: var(--primary);
+}
+.hero-text-container {
+	padding: 0;
+}
+
+.hero-btn {
+	background: var(--primary);
+	border: none;
+	color: white;
+}
+
+
+
+.card-special {
+	background: var(--primary);
+}
+.page-heading {
+	padding-top: 1rem;
+	text-align: center;
+}
+.page-heading::after, .preview-heading::after {
+	content: '——';
+	line-height: 1;
+	letter-spacing: -8px;
+	display: block;
+	color: var(--primary);
+}
+
+.testimonials {
+	background: url('https://nunheadroofing.co.uk/wp-content/uploads/2018/09/background2.jpg');
+	background-size: cover;
+	min-height: 40vh;
+}
+.main-cta {
+	background: var(--primary);
+	margin-bottom: 0;
+}
+.footer-main {
+	background: #232323;
+	color: #ddd;
+}
+footer h4 {
+	margin-bottom: 1rem;
+	font-size: 1.1rem;
+}
+footer ul {
+	font-size: 0.9rem;
+}
+footer .icon-shaded {
+	background: #333;
+	height: 26px;
+	width: 26px;
+}
+footer li {
+	padding-bottom: 5px;
+}
+.preview-img {
+	max-height: 30vh;
+}
+.preview-text {
+	padding: 0 1.5rem;
+}
+.preview-list {
+  list-style: none;
+  padding: 0;
+}
+.preview-item {
+  padding-left: 1.3em;
+}
+.preview-item:before {
+  content: "\25BA";
+  content: "\2713\0020";
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+	width: 1.3rem; /* same as padding-left set on li */
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: var(--primary);
+}
+.

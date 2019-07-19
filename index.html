@@ -15,12 +15,37 @@
 
 <body>
   <!-- contact bar -->
-  <section>
-
+  <section class="contact-bar py-3 d-none d-md-block">
+    <div class="container">
+      <div class="row justify-content-end">
+        <div class="col-md-9">
+          <ul class="d-lg-flex list-unstyled">
+            <li class="mx-3 my-lg-0 my-1">
+              <i class="fas fa-phone icon-shaded"></i>
+              <a
+                href="tel:&#048;&#050;&#048;&#032;&#051;&#055;&#052;&#050;&#032;&#049;&#049;&#050;&#056;">&#048;&#050;&#048;&#032;&#051;&#055;&#052;&#050;&#032;&#049;&#049;&#050;&#056;</a>
+            </li>
+            <li class="mx-3 my-lg-0 my-1">
+              <i class="fas fa-envelope icon-shaded"></i>
+              <a
+                href="mailto:&#105;&#110;&#102;&#111;&#064;&#110;&#117;&#110;&#104;&#101;&#097;&#100;&#114;&#111;&#111;&#102;&#105;&#110;&#103;&#046;&#099;&#111;&#046;&#117;&#107;">&#105;&#110;&#102;&#111;&#064;&#110;&#117;&#110;&#104;&#101;&#097;&#100;&#114;&#111;&#111;&#102;&#105;&#110;&#103;&#046;&#099;&#111;&#046;&#117;&#107;</a>
+            </li>
+            <li class="mx-3 my-lg-0 my-1">
+              <i class="fas fa-info icon-shaded"></i>
+              <a href="#">Get a quote</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 mt-1 mt-lg-0">
+          <a href="#"><i class="fab fa-twitter icon-shaded"></i>
+            <!--Find us on Twitter--></a>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- navigation -->
-  <section>
+  <section class="bg-white">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a href="#" class="navbar-brand">
@@ -84,28 +109,32 @@
 
 
   <!-- hero -->
-  <section>
+  <section class="hero">
     <div class="container">
-      <div>
+      <div class="hero-name">
         Nunhead Roofing
       </div>
       <h1>London Roofing Services</h1>
-      <h2>Family run for over 20 years</h2>
-      <p>We carry out roofing installation and replacement work across London. Whether domestic or comercial, historical
-        or listed, we offer a high quality service.</p>
-      <button>Read more</button>
+      <h2 class="hero-subheading">Family run for over 20 years</h2>
+      <div class="col-md-8 hero-text-container">
+        <p>We carry out roofing installation and replacement work across London. Whether domestic or
+          comercial, historical
+          or listed, we offer a high quality service.</p>
+      </div>
+      <button class="btn btn-light hero-btn">Read more</button>
     </div>
   </section>
 
   <!-- cards -->
   <section>
-    <div class="container mb-3">
+    <div class="container text-center mb-3 mt-md-n5">
       <div class="row">
         <div class="col-md-4">
-          <div class="card rounded-0 h-100">
+          <div class="card rounded-0 border-0 h-100">
             <div class="card-body">
-              <div class="card-img">
-                <img src="" alt="Roof install image">
+              <div class="card-img mb-4">
+                <img src="https://nunheadroofing.co.uk/wp-content/uploads/2018/01/home-custom-icon-4.png"
+                  alt="Roof install image">
               </div>
               <h4 class="card-title">Roof Replacement &amp; Installation</h4>
               <p class="card-text">Your first choice for slating, tiling, chimneys and roof replacements.</p>
@@ -113,10 +142,11 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card rounded-0 h-100">
+          <div class="card rounded-0 border-0 h-100 mb-2 mb-md-0">
             <div class="card-body">
-              <div class="card-img">
-                <img src="" alt="Flat roof image">
+              <div class="card-img mb-4">
+                <img src="https://nunheadroofing.co.uk/wp-content/uploads/2018/01/home-custom-icon-5.png"
+                  alt="Flat roof image">
               </div>
               <h4 class="card-title">Roof Replacement &amp; Installation</h4>
               <p class="card-text">Your first choice for slating, tiling, chimneys and roof replacements.</p>
@@ -124,11 +154,11 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card rounded-0 h-100">
+          <div class="card rounded-0 h-100 border-0 card-special">
             <div class="card-body">
-              <div class="card-title">Get a roofing replacement quote</div>
+              <h4 class="card-title">Get a roofing replacement quote</h4>
               <p class="card-text">For helpful advice and a full quotation get a quote today.</p>
-              <button class="btn-lg">Get your quote</button>
+              <button class="btn-lg mx-auto btn-light">Get your quote</button>
             </div>
           </div>
         </div>
@@ -139,11 +169,14 @@
 
   <!-- services -->
   <section>
-    <div class="container">
-      <h2>Our Roofing Services</h2>
+    <div class="container text-center w-50 my-5">
+      <h2 class="page-heading">Our Roofing Services</h2>
       <p>We have been providing roofing replacement and installation services across London for over 25 years. As a
         family run business we offer a trusted and professional service to both domestic and commercial customers. As
-        members of Competent Roofer, the only Government backed roofing scheme in the UK, all of our roof replacements
+        members of <a class="font-weight-bold text-dark" href="https://youtu.be/3kd-Tm5Gsg8">Competent Roofer</a>, the
+        only
+        Government backed roofing
+        scheme in the UK, all of our roof replacements
         come with a 10-year INSURED guarantee, giving you peace of mind and assurance of high quality work that will
         last.</p>
     </div>
@@ -151,20 +184,20 @@
 
   <!-- services preview -->
   <section>
-    <div class="container">
+    <div class="container bg-white">
       <div class="row align-items-center">
-        <div class="col-md-8 overflow-hidden h-100">
+        <div class="col-md-8 overflow-hidden preview-img p-0">
           <img src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/home-image-3-1-copy3.jpg"
             alt="Image of flat roof">
         </div>
-        <div class="col-md-4 h-100">
-          <h4>Flat Roof Repairs &amp; Replacement</h4>
-          <ul>
-            <li>High performance torch on felt system , EDPM Rubber system</li>
-            <li>Lead Flashing/Gully's</li>
-            <li>Skylights</li>
+        <div class="col-md-4 h-100 preview-text">
+          <h4 class="preview-heading">Flat Roof Repairs &amp; Replacement</h4>
+          <ul class="preview-list">
+            <li class="preview-item">High performance torch on felt system, EDPM Rubber system</li>
+            <li class="preview-item">Lead Flashing/Gully's</li>
+            <li class="preview-item">Skylights</li>
           </ul>
-          <button class="btn btn-primary">Flat roof replacement options <i
+          <button class="btn btn-light hero-btn">Flat roof replacement options <i
               class="fas fa-arrow-circle-right"></i></button>
         </div>
       </div>
@@ -172,7 +205,7 @@
   </section>
 
   <!-- stats -->
-  <section>
+  <section class="stats">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -198,7 +231,7 @@
   <!-- certifications -->
   <section>
     <div class="container">
-      <h2>Why use a competent roofer</h2>
+      <h2 class="page-heading">Why use a competent roofer</h2>
       <div class="row">
         <div class="col-lg-6 align-self-center">
           <div class="embed-responsive embed-responsive-21by9">
@@ -208,7 +241,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="row py-3">
+          <div class="row py-3 text-center">
             <!-- competent roofers / national federation -->
             <div class="col-md-6 container mt-3">
               <div class="row">
@@ -255,7 +288,7 @@
   </section>
 
   <!-- brands -->
-  <section class="shadow w-75 mx-auto mt-2">
+  <section class="shadow w-75 mx-auto mt-2 bg-white p-2 brands">
     <div class="container">
       <div class="row">
         <div class="col-md-3 text-center mb-2">
@@ -282,9 +315,9 @@
 
 
   <!-- testimonials -->
-  <section style="background: #ccc" class="py-3 mt-4">
+  <section class="py-3 mt-4 testimonials">
     <div class="container">
-      <h2>Testimonials</h2>
+      <h2 class="page-heading">Testimonials</h2>
       <div class="row">
         <div class="col-md-4">
           <div class="card border-0 h-100">
@@ -346,27 +379,30 @@
   </section>
 
   <!-- main CTA -->
-  <section>
-    <div class="container my-3">
+  <section class="main-cta">
+    <div class="container mt-3 py-4">
       <div class="row">
         <div class="col-lg-9 col-md-12">
-          <h2>Get Your Quote or Call Mark On: ### #### ####</h2>
+          <h3>Get Your Quote or Call Mark On:
+            <span
+              class="text-white">&#048;&#050;&#048;&#032;&#051;&#055;&#052;&#050;&#032;&#049;&#049;&#050;&#056;</span>
+          </h3>
           <p>Over 20 years of knowledge and experience in the roofing profession</p>
         </div>
         <div class="col-lg-3 col-md-12">
-          <a class="btn-lg btn-primary w-100 py-2" href="#" role="button">Get your quote</a>
+          <a class="btn-lg mx-auto btn-light" href="#" role="button">Get your quote</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- footer -->
-  <footer class="bg-dark text-light pt-2">
+  <footer class="footer-main pt-2">
     <div class="container mt-3">
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div>
-            <h3>Nunhead Roofing</h3>
+            <h4>Nunhead Roofing</h4>
             <p>We are a family run business with over 20 years of knowledge and experience in the roofing profession. We
               carry out works throughout London, and Canterbury. Whether domestic or commercial, historical or listed,
               we
@@ -375,18 +411,18 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <div>
-            <h3>All Work Is Guaranteed.</h3>
-            <ul>
-              <li>Mark on 020 3742 1128</li>
-              <li>info@nunheadroofing.co.uk</li>
-              <li>Get a quote</li>
-              <li>4, Pearlec House, Walworth Place, London, SE17 2DL</li>
+            <h4>All Work Is Guaranteed.</h4>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-phone icon-shaded fa-xs"></i> Mark on 020 3742 1128</li>
+              <li><i class="fas fa-envelope icon-shaded fa-xs"></i> info@nunheadroofing.co.uk</li>
+              <li><i class="fas fa-info icon-shaded fa-xs"></i> Get a quote</li>
+              <li><i class="fas fa-home icon-shaded fa-xs"></i> 4, Pearlec House, Walworth Place, London, SE17 2DL</li>
             </ul>
           </div>
         </div>
         <div class="col-lg-4 col-md-12 pt-3">
           <div>
-            <h3>Get in touch</h3>
+            <h4>Get in touch</h4>
             <form>
               <input type="text" name="" id="">
               <input type="text" name="" id="">
