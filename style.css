@@ -128,6 +128,10 @@ footer li {
 .preview-text {
 	padding: 0 1.5rem;
 }
+.preview-box {
+z-index: 1000;
+background: #fff;
+}
 .preview-list {
   list-style: none;
   padding: 0;
@@ -145,4 +149,10 @@ footer li {
 	font-weight: bold;
 	color: var(--primary);
 }
-.
+.stats {
+	z-index: 0;
+	background: url('https://nunheadroofing.co.uk/wp-content/uploads/2018/09/home-background-1-copy-1.jpg');
+	color: white;
+	min-height: 40vh;
+	text-align: center;
+}
