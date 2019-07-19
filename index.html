@@ -8,7 +8,7 @@
   <title>Nunhead Roofing</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/b9c9013620.js"></script>
 </head>
 
@@ -21,17 +21,67 @@
 
   <!-- navigation -->
   <section>
-    <!--   <nav class="nav nav-pills flex-column flex-sm-row"> -->
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
-      <div class="navbar-nav">
-        <a href="#" class="nav-item nav-link">Our Services</a>
-        <a href="#" class="nav-item nav-link">Types of Roofing</a>
-        <a href="#" class="nav-item nav-link">About Us</a>
-        <a href="#" class="nav-item nav-link">Certificates</a>
-        <a href="#" class="nav-item nav-link">Contact Us</a>
-      </div>
-    </nav>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="#" class="navbar-brand">
+          <img src="https://nunheadroofing.co.uk/wp-content/uploads/2018/11/Screen-Shot-2018-11-27-at-10.38.36.png"
+            alt="Nunhead roofing logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="container justify-content-lg-end pl-4">
+          <div class="row">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Our Services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                    <a class="dropdown-item" href="#">Domestic Roofing</a>
+                    <a class="dropdown-item" href="#">Commercial Roofing</a>
+                    <a class="dropdown-item" href="#">Loft Conversions</a>
+                    <a class="dropdown-item" href="#">Velux Windows &amp; Skylights</a>
+                    <a class="dropdown-item" href="#">Guttering Services</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Types of Roofing
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                    <a class="dropdown-item" href="#">Flat Roof</a>
+                    <a class="dropdown-item" href="#">Felt Roog</a>
+                    <a class="dropdown-item" href="#">Tiled Roof</a>
+                    <a class="dropdown-item" href="#">Asphalt Roof</a>
+                    <a class="dropdown-item" href="#">Pitched Roof</a>
+                    <a class="dropdown-item" href="#">Lead Roof</a>
+                    <a class="dropdown-item" href="#">Slate Roof</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Certificates</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact Us</a>
+                </li>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
   </section>
+
 
   <!-- hero -->
   <section>
@@ -50,29 +100,37 @@
   <!-- cards -->
   <section>
     <div class="container">
-      <div class="card">
-        <div class="card-body">
-          <div class="card-img">
-            <img src="" alt="[Roof install img]">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card rounded-0 h-100">
+            <div class="card-body">
+              <div class="card-img">
+                <img src="" alt="[Roof install img]">
+              </div>
+              <div class="card-title">Roof Replacement &amp; Installation</div>
+              <p class="card-title">Your first choice for slating, tiling, chimneys and roof replacements.</p>
+            </div>
           </div>
-          <div class="card-title">Roof Replacement &amp; Installation</div>
-          <p class="card-title">Your first choice for slating, tiling, chimneys and roof replacements.</p>
         </div>
-      </div>
-      <div class="card">
-        <div class="card-body">
-          <div class="card-img">
-            <img src="" alt="[Flat roof img]">
+        <div class="col-md-4">
+          <div class="card rounded-0 h-100">
+            <div class="card-body">
+              <div class="card-img">
+                <img src="" alt="[Flat roof img]">
+              </div>
+              <div class="card-title">Roof Replacement &amp; Installation</div>
+              <p class="card-title">Your first choice for slating, tiling, chimneys and roof replacements.</p>
+            </div>
           </div>
-          <div class="card-title">Roof Replacement &amp; Installation</div>
-          <p class="card-title">Your first choice for slating, tiling, chimneys and roof replacements.</p>
         </div>
-      </div>
-      <div class="card">
-        <div class="card-body">
-          <div class="card-title">Get a roofing replacement quote</div>
-          <p class="card-title">For helpful advice and a full quotation get a quote today.</p>
-          <button class="btn-lg">Get your quote</button>
+        <div class="col-md-4">
+          <div class="card rounded-0 h-100">
+            <div class="card-body">
+              <div class="card-title">Get a roofing replacement quote</div>
+              <p class="card-title">For helpful advice and a full quotation get a quote today.</p>
+              <button class="btn-lg">Get your quote</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -126,82 +184,137 @@
   <section>
     <div class="container">
       <h2>Why use a competent roofer</h2>
-      <div style="width:300px;height:240px;background:gray;max-width:80vw;"></div> <!-- video placeholder -->
-      <div class="container mt-3">
-        <img class="img-fluid" src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/trustmark-logo-300x150.png"
-          alt="Trust mark logo">
-        <img class="img-fluid" src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/unnamed.jpg"
-          alt="Competent Roofer logo">
-        <h3>Competent Roofers</h3>
-        <p>We are members of Competent Roofer. By using a registered Competent Roofer, you can save not only time and
-          money but will have the added reassurance that the work carried out complies with all relevant standards and
-          importantly, that your legal obligations are met. Please watch the video for more information.</p>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/3kd-Tm5Gsg8"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
       </div>
-      <div>
-        <img src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/badge2.jpg" alt="Exor approved">
-        <img src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/nfrc-300x122.png"
-          alt="National federation of roofing contractors logo">
-        <p>We are an official member of the National Federation of Roofing Contractors. Whether you need a repair, a new
-          roof, or are replacing an existing roof, using an NFRC member contractor to carry out the work will give you
-          peace of mind, as well as a weatherproof roof.</p>
+      <div class="row py-3">
+        <div class="col-md-6 container mt-3">
+          <div class="row">
+            <div class="col-sm-6">
+              <img class="img-fluid"
+                src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/trustmark-logo-300x150.png"
+                alt="Trust mark logo">
+            </div>
+            <div class="col-sm-6">
+              <img class="img-fluid" src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/unnamed.jpg"
+                alt="Competent Roofer logo">
+            </div>
+          </div>
+          <h3>Competent Roofers</h3>
+          <p>We are members of Competent Roofer. By using a registered Competent Roofer, you can save not only time and
+            money but will have the added reassurance that the work carried out complies with all relevant standards and
+            importantly, that your legal obligations are met. Please watch the video for more information.</p>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <img class="img-fluid" src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/badge2.jpg"
+                alt="Exor approved">
+            </div>
+            <div class="col-sm-6 align-self-center">
+              <img class="img-fluid" src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/nfrc-300x122.png"
+                alt="National federation of roofing contractors logo">
+            </div>
+          </div>
+          <h3>National Federation of Roofing Contractors</h3>
+          <p>We are an official member of the National Federation of Roofing Contractors. Whether you need a repair, a
+            new
+            roof, or are replacing an existing roof, using an NFRC member contractor to carry out the work will give you
+            peace of mind, as well as a weatherproof roof.</p>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- brands -->
-
-  <section class="shadow">
+  <section class="shadow w-75 mx-auto mt-2">
     <div class="container">
       <div class="row">
-        <img src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/logo-nunhead-velux.jpg" alt="Velux logo">
-        <img src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/logo-nunhead-classic-bond-1.jpg"
-          alt="Classic Bond logo">
-        <img src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/logo-nunhead-marley-eternit.jpg"
-          alt="Marley eternit logo">
-        <img src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/logo-nunhead-redit.png" alt="Redland logo">
+        <div class="col-md-3 text-center mb-2">
+          <img class="img-fluid" src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/logo-nunhead-velux.jpg"
+            alt="Velux logo">
+        </div>
+        <div class="col-md-3 text-center mb-2">
+          <img class="img-fluid"
+            src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/logo-nunhead-classic-bond-1.jpg"
+            alt="Classic Bond logo">
+        </div>
+        <div class="col-md-3 text-center mb-2">
+          <img class="img-fluid"
+            src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/logo-nunhead-marley-eternit.jpg"
+            alt="Marley eternit logo">
+        </div>
+        <div class="col-md-3 text-center mb-2">
+          <img class="img-fluid" src="https://nunheadroofing.co.uk/wp-content/uploads/2018/09/logo-nunhead-redit.png"
+            alt="Redland logo">
+        </div>
       </div>
     </div>
   </section>
 
   <!-- main CTA -->
   <section>
-    <div class="container">
-      <h2>Get Your Quote or Call Mark On: ### #### ####</h2>
-      <p>Over 20 years of knowledge and experience in the roofing profession</p>
-      <button class="btn-lg">Get your quote</button>
+    <div class="container my-3">
+      <div class="row">
+        <div class="col-lg-9 col-md-12">
+          <h2>Get Your Quote or Call Mark On: ### #### ####</h2>
+          <p>Over 20 years of knowledge and experience in the roofing profession</p>
+        </div>
+        <div class="col-lg-3 col-md-12">
+          <a class="btn-lg btn-primary w-100 py-2" href="#" role="button">Get your quote</a>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- footer -->
-  <footer>
-    <div class="row">
-      <div>
-        <h3>Nunhead Roofing</h3>
-        <p>We are a family run business with over 20 years of knowledge and experience in the roofing profession. We
-          carry out works throughout London, and Canterbury. Whether domestic or commercial, historical or listed, we
-          offer a high quality service. All work is guaranteed.</p>
+  <footer class="bg-dark text-light pt-2">
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div>
+            <h3>Nunhead Roofing</h3>
+            <p>We are a family run business with over 20 years of knowledge and experience in the roofing profession. We
+              carry out works throughout London, and Canterbury. Whether domestic or commercial, historical or listed,
+              we
+              offer a high quality service. All work is guaranteed.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div>
+            <h3>All Work Is Guaranteed.</h3>
+            <ul>
+              <li>Mark on 020 3742 1128</li>
+              <li>info@nunheadroofing.co.uk</li>
+              <li>Get a quote</li>
+              <li>4, Pearlec House, Walworth Place, London, SE17 2DL</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 pt-3">
+          <div>
+            <h3>Get in touch</h3>
+            <form>
+              <input type="text" name="" id="">
+              <input type="text" name="" id="">
+              <input type="submit" value="Send">
+            </form>
+          </div>
+        </div>
       </div>
-      <div>
-        <h3>All Work Is Guaranteed.</h3>
-        <ul>
-          <li>Mark on 020 3742 1128</li>
-          <li>info@nunheadroofing.co.uk</li>
-          <li>Get a quote</li>
-          <li>4, Pearlec House, Walworth Place, London, SE17 2DL</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Get in touch</h3>
-        <form>
-          <input type="text" name="" id="">
-          <input type="text" name="" id="">
-          <input type="submit" value="Send">
-        </form>
+      <div class="row text-center py-3">
+        <div class="col-md-5">
+          <div>&copy; 2019. Nunhead Roofing &amp; Building Services Ltd.</div>
+        </div>
+        <div class="col-md-7">
+          <div>Registered England and Wales (Company No. 11148258)</div>
+        </div>
+        <div class="col-md-12 mt-2"><a href="#">Privacy Policy</a> | <a href="#">Terms &amp; Conditions</a> | <a
+            href="#">Cookie Policy</div>
       </div>
     </div>
-    <div class="row">
-      <div>© 2019. Nunhead Roofing &amp; Building Services Ltd.</div>
-      <div>Registered England and Wales (Company No. 11148258) | Privacy Policy</div>
     </div>
   </footer>
 
@@ -214,6 +327,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script> // enable dropdown for nav
+    $(document).ready(function () {
+      $('.dropdown-toggle').dropdown()
+    });
+  </script>
 </body>
 
 </html>​
