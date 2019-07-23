@@ -5,7 +5,7 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background: #efefef;
+	background: #fff;
 }
 button, .btn, .btn-lg, a.btn-primary {
 	display: block;
@@ -48,8 +48,10 @@ p {
 .hero {
 	background: url('https://nunheadroofing.co.uk/wp-content/uploads/2019/03/nunhead-roofing-london.jpg');
 	background-size: cover;
-	min-height: 40vh;
 	color: white;
+}
+.hero-home {
+	min-height: 40vh;
 	padding-top: 3rem;
 }
 .hero-name {
@@ -71,7 +73,7 @@ p {
 	padding: 0;
 }
 
-.hero-btn {
+.default-btn {
 	background: var(--primary);
 	border: none;
 	color: white;
@@ -82,11 +84,14 @@ p {
 .card-special {
 	background: var(--primary);
 }
-.page-heading {
+.main-content-heading {
 	padding-top: 1rem;
 	text-align: center;
 }
-.page-heading::after, .preview-heading::after {
+.heading-left {
+	text-align-last: left;
+}
+.main-content-heading::after, .preview-heading::after {
 	content: '——';
 	line-height: 1;
 	letter-spacing: -8px;
@@ -158,4 +163,25 @@ footer a {
 footer a:hover {
 	color: #fff;
 	text-decoration: none;
+}
+
+
+
+
+
+/* about us page */
+
+.page-heading {
+	text-align: center;
+
+}
+
+
+.hero-pages {
+	min-height: 30vh;
+	padding-top: 9rem;
+}
+
+.alternative-section {
+	background: #ecebeb;
 }
