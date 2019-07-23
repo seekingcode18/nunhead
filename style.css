@@ -95,6 +95,7 @@ p {
 	content: '——';
 	line-height: 1;
 	letter-spacing: -8px;
+	font-size: 1.4rem;
 	display: block;
 	color: var(--primary);
 }
@@ -173,7 +174,6 @@ footer a:hover {
 
 .page-heading {
 	text-align: center;
-
 }
 
 
@@ -184,4 +184,25 @@ footer a:hover {
 
 .alternative-section {
 	background: #ecebeb;
+}
+
+
+/* services pages */
+.services-page-heading {
+	font-size: 1.4rem;
+	padding: 1rem 0;
+}
+.service-heading-smaller {
+	font-size: 1.2rem;
+}
+.services-icon-box {
+	text-align: center;
+}
+.services-icon {
+	color: var(--primary);
+	font-size: 3rem;
+	padding: 1.5rem;
+}
+.services-icon-box p {
+	font-size: 0.9rem;
 }
