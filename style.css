@@ -5,7 +5,8 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background: #fff;
+	background: #ecebeb;
+	line-height: 1.6;
 }
 button, .btn, .btn-lg, a.btn-primary {
 	display: block;
@@ -104,6 +105,14 @@ p {
 	background: url('https://nunheadroofing.co.uk/wp-content/uploads/2018/09/background2.jpg');
 	background-size: cover;
 	min-height: 40vh;
+	text-align: center;
+}
+.testimonial-rating {
+	color: var(--primary);
+}
+.testimonial-text {
+	font-size: 0.9rem;
+	color: #666;
 }
 .main-cta {
 	background: var(--primary);
@@ -142,7 +151,7 @@ footer li {
 .preview-item {
   padding-left: 1.3em;
 }
-.preview-item:before {
+.preview-item::before {
   content: "\25BA";
   content: "\2713\0020";
   display: inline-block;
@@ -157,6 +166,8 @@ footer li {
 	color: white;
 	min-height: 40vh;
 	text-align: center;
+	font-size: 1.1rem;
+	font-weight: 300;
 }
 footer a {
 	color: #efefef;
@@ -174,12 +185,13 @@ footer a:hover {
 
 .page-heading {
 	text-align: center;
+	margin: 0;
+	padding: 1rem 0;
 }
 
 
 .hero-pages {
 	min-height: 30vh;
-	padding-top: 9rem;
 }
 
 .alternative-section {
@@ -206,3 +218,4 @@ footer a:hover {
 .services-icon-box p {
 	font-size: 0.9rem;
 }
+
