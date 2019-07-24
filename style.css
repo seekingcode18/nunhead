@@ -26,6 +26,9 @@ h1,h2,h3,h4,h5,h6 {
 p {
 	font-weight: 300;
 }
+
+
+/* contact bar */
 .icon-shaded {
 	background: var(--darker);
 	padding: 0.5rem;
@@ -45,7 +48,23 @@ p {
 	color: white;
 	text-decoration: none;
 }
+@media(max-width: 768px) {
+	.contact-bar-larger {
+		font-size: 2rem;
+		letter-spacing: expanded;
+		position: relative;
+		top: 6px;
+		left: 3px;
+	}
+}
 
+/* navigation */
+.dropdown-item:hover {
+	background-color: var(--primary);
+}
+
+
+/* hero section */
 .hero {
 	background: url('https://nunheadroofing.co.uk/wp-content/uploads/2019/03/nunhead-roofing-london.jpg');
 	background-size: cover;
