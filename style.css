@@ -156,6 +156,19 @@ footer .icon-shaded {
 footer li {
 	padding-bottom: 5px;
 }
+.footer-link {
+	color:#888;
+}
+.footer-link:hover, .footer-link:active {
+	color: white;
+}
+.sub-footer-link {
+	color:#ccc;
+}
+.sub-footer-link:hover, .sub-footer-link:active {
+	color:white;
+	text-decoration: none;
+}
 .preview-img {
 	max-height: 30vh;
 }
