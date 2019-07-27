@@ -26,7 +26,13 @@ h1,h2,h3,h4,h5,h6 {
 p {
 	font-weight: 300;
 }
-
+/* certificates */
+.certificate-label {
+	color: var(--primary);
+	font-weight: bold;
+	font-size: 1.2rem;
+	padding-top: 1rem;
+}
 
 /* contact bar */
 .icon-shaded {
