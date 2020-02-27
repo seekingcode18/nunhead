@@ -12,8 +12,11 @@ It is deployed at https://www.nunheadroofing.co.uk/
 
 
 ## Approach
-Before I started coding, I undertook a detailed planning process. I completed an audit of the old website so I could see what needed to be improved, and then I spent time talking to the client to understand their business needs and what they wanted to get out of the website. I used this information to create a development roadmap and schedule. After agreeing the schedule with the client, I used Microsoft Teams to track my progress against tasks and subtasks, which greatly helped me focus and prioritise. I began coding the templates offline before configuring them in the Umbraco CMS. 
+Before I started coding, I undertook a detailed planning process. I completed an audit of the old website so I could see what needed to be improved, and then I spent time talking to the client to understand their business needs and what they wanted to get out of the website. I used this information to create a development roadmap and schedule. After agreeing the schedule with the client, I used Microsoft Teams to track my progress against tasks and subtasks, which greatly helped me focus and prioritise. I began coding the templates offline before configuring them in the Umbraco CMS. Throughout the process, I made an effort to be in regular communication with my client to update them on progress and to ask about content and design decisions.
 
+![initial plans of deliverables](nunhead-plan01.jpg)
+
+![initial timeframe plan](nunhead-plan02.jpg)
 
 ## Achievements
 The website redevelopment was highly successful with performance improved by an average of 87% across the site. 
