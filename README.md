@@ -9,13 +9,31 @@ Before I started coding, I undertook a detailed planning process. I spent time t
 
 
 ## Achievement
-The website redevelopment was highly successful with performance improved by an average of 87% across the site. The Google/Lighthouse performance score was 1 on the old site and is now 99 on the new site. Average load time reduced from 14 seconds to 1.7 seconds, average Speed Index reduced from 16 seconds to 1.8 seconds, and average time until pages are interactive from 26 seconds to 2.8 seconds.
+The website redevelopment was highly successful with performance improved by an average of 87% across the site. 
 
-The size of the webpages was greatly reduced from 5Mb to 0.8Mb without compromising on quality. This was achieved by removing unnecessary code and compressing the images. For example, the old site contained 55 images over 100Kb and 33 images over 400Kb, whereas the new site only has 20 images over 100Kb and none over 300kb.
+### Performance improvements
+* Google / Lighthouse performance score increased from 1 on the old site to 99
+* average load time reduced from 14 seconds to 1.7 seconds
+* average Speed Index reduced from 16 seconds to 1.8 seconds
+* average time until pages are interactive from 26 seconds to 2.8 seconds.
+* webpage size was greatly reduced from 5Mb to 0.8Mb without compromising on quality
+  * unnecessary code removed
+  * images compressed
+    * reduced number of 100Kb images from 55 on the old site to 20
+    * reduced number of 400Kb images from 33 to 0
 
-All form elements now have labels and all images now have alt tags to meet accessbility requirements. Security has been improved by defaulting to the included SSL certificate and removing old, vulnerable links to jQuery script files.
+### SEO improvements:
+* decreased load times
+* rewrote about page from 76 to 360 words
+* optimising site structure / URLs
 
-SEO has been improved by decreasing load times, implementing an SSL certificate, rewriting the About Us page as a sales pitch (from 76 words to 360 words), optimising site structure (thus improving URLs), and naming the images with meaningful filenames and alt text.
+### Security improvements:
+* removed vulnerable links to outdated jQuery scripts
+* added SSL certificate
+
+### Accessibility improvements:
+* added alt text to all images
+* added labels to all form elements
 
 I also created a series of personalised training videos for the client so that they can learn how to upload their own images and edit the page text. The feedback I've had so far has been all positive.
 
