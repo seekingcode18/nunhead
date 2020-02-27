@@ -5,8 +5,7 @@ The aim of this project was to redevelop a client's website from scratch to impr
 
 The result was a new website with clean code, good security and vastly improved performance.
 
-It is deployed at https://www.nunheadroofing.co.uk/
-
+It is deployed at <a href="https://www.nunheadroofing.co.uk/" target="_blank">https://www.nunheadroofing.co.uk/</a>
 ![screenshot of Nunhead Roofing's new website](nunhead.jpg)
 
 
