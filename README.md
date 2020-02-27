@@ -78,4 +78,7 @@ After completing the project, I felt a great sense of accomplishment, having pub
 
 
 ### Next Steps
-I'm now working with the client on their SEO to boost search ranking and local listings. When I have more time to work on the website itself, I would like to implement a scrolling carousel of testimonials to showcase more of their customer's thoughts. I would also like to experiment with different styles and positioning for the calls to action on various pages, in an effort to increase sales. Finally, I would like to improve the templating so that the client is able to edit more parts of the website themselves, such as the home and about pages.
+I'm now working with the client on their SEO to boost search ranking and local listings. When I have more time to work on the website itself, I would like to make the following improvements:
+* implement a scrolling carousel of their customers' testimonials
+* experiment with different styles for calls to action in an effort to increase sales
+* improve templating so the client can edit more parts of the website themselves
