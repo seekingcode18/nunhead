@@ -3,6 +3,8 @@
 ## Overview
 The aim of this project was to redevelop a client's website from scratch to improve performance and drive sales for their small business. The client had an existing website that was incredibly slow and not fully compliant. Over the course of 6 weeks, I planned, developed and deployed the site, working with the client to ensure it met their expectations. The result was a new website with clean code, good security and vastly improved performance.
 
+![screenshot of Nunhead Roofing's new website](nunhead.jpg)
+
 
 ## Approach
 Before I started coding, I undertook a detailed planning process. I spent time talking to the client to understand their business needs and what they wanted to get out of the website. I used this information to create a development roadmap and schedule. After agreeing the schedule with the client, I used Microsoft Teams to track my progress against tasks and subtasks, which greatly helped me focus and prioritise. I began coding the templates offline before configuring them in the Umbraco CMS. 
