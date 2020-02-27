@@ -7,11 +7,16 @@ The aim of this project was to redevelop a client's website from scratch to impr
 
 
 ## Approach
-Before I started coding, I undertook a detailed planning process. I spent time talking to the client to understand their business needs and what they wanted to get out of the website. I used this information to create a development roadmap and schedule. After agreeing the schedule with the client, I used Microsoft Teams to track my progress against tasks and subtasks, which greatly helped me focus and prioritise. I began coding the templates offline before configuring them in the Umbraco CMS. 
-
+Before I started coding, I undertook a detailed planning process. I completed an audit of the old website so I could see what needed to be improved, and then I spent time talking to the client to understand their business needs and what they wanted to get out of the website. I used this information to create a development roadmap and schedule. After agreeing the schedule with the client, I used Microsoft Teams to track my progress against tasks and subtasks, which greatly helped me focus and prioritise. I began coding the templates offline before configuring them in the Umbraco CMS. 
 
 ## Achievement
 The website redevelopment was highly successful with performance improved by an average of 87% across the site. 
+
+### Audit of old website
+![audit of old website](nunhead-audit01.jpg)
+
+### Audit of new website
+![audit of new website](nunhead-audit02.jpg)
 
 ### Performance improvements
 * Google / Lighthouse performance score increased from 1 on the old site to 99
@@ -39,6 +44,8 @@ The website redevelopment was highly successful with performance improved by an 
 
 I also created a series of personalised training videos for the client so that they can learn how to upload their own images and edit the page text. The feedback I've had so far has been all positive.
 
+### Summary of resolved issues
+![summary of resolved issues](nunhead-audit03.jpg)
 
 ## Technologies
 * Umbraco CMS
